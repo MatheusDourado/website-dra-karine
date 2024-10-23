@@ -2473,10 +2473,12 @@ input, select, textarea {
 			background: #272833;
 			border-radius: 100%;
 			cursor: default;
-			display: inline-block;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			height: 6em;
 			line-height: 5.65em;
-			margin: 0 0 2em 0;
+			margin: 0 auto 2em auto;
 			text-align: center;
 			width: 6em;
 		}
@@ -3107,7 +3109,7 @@ input, select, textarea {
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 2em 0 2em 0;
 			width: 100%;
 		}
 
